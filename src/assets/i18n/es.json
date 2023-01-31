@@ -1,0 +1,6 @@
+{
+  "title": "Prueba traducciones",
+  "text1": "El <i>coche</i> <span class='green'>verde</span>",
+  "text2": "El coche <span>rojo</span>",
+  "text3": "<h1>Mi app</h1><p>Esto es una <b>descripción</b> de mi app</p><h3>Esto es un <i>título</i> de mi app</h3><p>Fin del documento</p>"
+}

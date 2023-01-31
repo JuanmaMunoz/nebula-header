@@ -1,0 +1,25 @@
+<nav class="navbar navbar-light fixed-top bg-light border-bottom">
+  <div class="container-fluid">
+    <img [src]="urlLogo">
+    <div class="d-flex d-inline">
+      <div class="navbar__info">
+        <div class="text-dark">
+          <strong>{{userName}}</strong>
+        </div>
+        <div class="text-secondary">
+          {{userCompany}}
+        </div>
+      </div>
+      <div class="navbar__img ml-1">
+        <img [src]="urlUser">
+      </div>
+
+    </div>
+
+    <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    </div>
+  </div>
+</nav>
