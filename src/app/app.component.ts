@@ -7,7 +7,7 @@ import { assetUrl } from 'src/single-spa/asset-url';
   selector: 'nebula-header',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  //encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit{
   title = 'nebula-header';
@@ -18,11 +18,14 @@ export class AppComponent implements OnInit{
   constructor(private translate: TranslateService, public domSanitizer: DomSanitizer) {
   }
 
-  ngOnInit(){
+  ngOnInit(): void{
     this.translate.setDefaultLang('es');
     this.useLanguage();
-    this.urlCss = this.domSanitizer.bypassSecurityTrustResourceUrl(assetUrl('css/custom1.css'));
+    //this.urlCss = this.domSanitizer.bypassSecurityTrustResourceUrl(assetUrl('css/custom1.css'));
     //this.urlCss = this.domSanitizer.bypassSecurityTrustResourceUrl('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+  }
+
+  ngOnDestroy(): void{
   }
 
   changeLanguage(): void {

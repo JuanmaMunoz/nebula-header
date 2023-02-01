@@ -10,10 +10,10 @@
           {{userCompany}}
         </div>
       </div>
-      <div class="navbar__img ml-1">
+      <div class="navbar__img ms-2">
         <img [src]="urlUser">
       </div>
-
+      <app-dropdown [dropDownList]="dropDownList" (dropDownActions)="actions($event)"></app-dropdown>
     </div>
 
     <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

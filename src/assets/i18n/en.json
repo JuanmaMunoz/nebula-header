@@ -1,6 +1,6 @@
 {
-  "title": "Test translate",
-  "text1": "the <span class='green'>green</span> car",
-  "text2": "the <span>red</span> car",
-  "text3": "<h1>My app</h1><p>This is a <b>description</b> of my app</p><h3>This is a <i>title</i> of my app</h3><p>End of document</p>"
+  "dropDown":{
+    "logOut": "Log out",
+    "changeLanguage": "Change Language"
+  }
 }
