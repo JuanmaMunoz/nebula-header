@@ -2,5 +2,6 @@
   "dropDown":{
     "logOut": "Log out",
     "changeLanguage": "Change Language"
-  }
+  },
+  "backNebula": "Back to Nebula Suite"
 }

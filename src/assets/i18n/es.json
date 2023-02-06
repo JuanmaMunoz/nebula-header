@@ -2,5 +2,7 @@
   "dropDown":{
     "logOut": "Cerrar sesión",
     "changeLanguage": "Cambiar idioma"
-  }
+  },
+  "backNebula": "Volver a Nebula Suite"
+
 }
