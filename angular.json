@@ -39,7 +39,7 @@
               "libraryName": "nebula-header",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:4200/"
+            "deployUrl": ""
           },
           "configurations": {
             "production": {
