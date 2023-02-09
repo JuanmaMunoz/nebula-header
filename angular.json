@@ -38,7 +38,7 @@
               "libraryName": "nebula-header",
               "libraryTarget": "umd"
             },
-            "deployUrl": ""
+            "deployUrl": "https://juanmamunoz.github.io/nebula-header/"
           },
           "configurations": {
             "production": {
