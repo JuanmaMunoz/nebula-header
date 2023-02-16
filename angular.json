@@ -37,11 +37,11 @@
               "path": "extra-webpack.config.js",
               "libraryName": "nebula-header",
               "libraryTarget": "umd"
-            },
-            "deployUrl": "https://devel.nebulaservice.net/header/"
+            }
           },
           "configurations": {
             "production": {
+              "deployUrl": "https://devel.nebulaservice.net/header/",
               "budgets": [
                 {
                   "type": "initial",
@@ -57,6 +57,7 @@
               "outputHashing": "none"
             },
             "development": {
+              "deployUrl": "http://localhost:4200/",
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
