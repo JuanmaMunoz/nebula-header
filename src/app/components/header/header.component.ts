@@ -63,7 +63,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   private logOut(): void {
-    console.log('logOut*******');
+    localStorage.removeItem('nebulaSession');
+    this.router.navigate(['/login/auth']);
   }
 
   public backNebula(): void {
